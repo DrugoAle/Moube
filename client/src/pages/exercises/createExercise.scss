@@ -1,0 +1,26 @@
+.modalTitle{
+    text-align: center;
+    color: #001988;
+}
+
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+.exerciseInput{
+
+    text-align: justify;
+        
+    background-color: #EEEEEE;
+    -moz-border-radius: 20px;
+    -webkit-border-radius:20px;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    padding: 0 4px 0 40px;
+    height: 45px;
+    width: 88%;
+}
+}
+

@@ -1,0 +1,147 @@
+.sidebar {
+    height: 100vh!important;
+    display: flex!important;
+    justify-content: space-between;
+    position: relative!important;
+    color: white;
+    .toggleBtn {
+        display: none;
+    }
+    .logo1 {
+        width: 100%;
+    }
+
+    .closeSession {
+        width: 100%;
+    }
+}
+@media screen and (max-width:991px) {
+    .navbar-nav {
+        display: block!important;
+    }
+    .sidebar {
+        width: 100%;
+        height: fit-content!important;
+        justify-content: flex-start!important;
+        .logo1 {
+            width: 70%!important;
+        }
+        .toggleBtn {
+            display: block;
+            width: 15%;
+            background-color: transparent!important;
+            border: 1px solid rgb(98,211,164) ;
+
+        }
+        .toggleBtn:focus {
+            border-color: rgb(98,211,164) ;
+        }
+        .contToggle {
+            display: flex;
+            justify-content: space-between;
+            svg {
+                width: 100%!important;
+            }
+
+        }
+    }
+    .infoSession {
+        display: flex;
+        align-items: center!important;
+        justify-content: center!important;
+    }
+    .contButtonsMenu {
+        height: 10%;
+        width: 100%;
+    }
+
+    .infoSession{
+        justify-content: right!important;
+    }
+    
+
+    #contHeight {
+        height: fit-content!important;
+        width: 100%;
+        padding: 2%!important;
+        display: flex!important;
+        flex-direction: column!important;
+        justify-content: space-between!important;
+    }
+
+    .infoSession {
+        width: 100%!important;
+        .openSession {
+            width: 100%;
+        }
+        .closeSession {
+            width: 40%;
+            margin-top: 0;
+        }
+    }
+}
+.contButtonsMenu {
+height: 30%;
+display: flex;
+flex-direction: column;
+// align-items: flex-end!important;
+}
+
+.btn-menu {
+    font-size: larger!important;
+    background-color: transparent!important;
+    border: none!important;
+    text-align: start!important;
+    margin-bottom: 5%;
+}
+
+#contHeight {
+    height: 100vh;
+    padding: 5% 2%;
+    display: flex;
+    flex-direction: column!important;
+    justify-content: space-between;
+}
+.btn-menu:focus {
+    border-left: 10px solid rgb(98,211,164)!important;
+    outline: none!important;
+
+}
+.btn-menu:hover {
+    border-left: 10px solid rgb(98,211,164)!important;
+    outline-style: none!important;
+}
+
+.openSession {
+margin-left: 10%;
+}
+.closeSession {
+    background-color: transparent!important;
+    border-radius: 50px!important;
+    border: 2px solid rgb(98,211,164)!important;
+    color: rgb(98,211,164)!important;
+    margin: 5% 0;
+}
+
+.profilePic {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(98,211,164);
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50%;
+    }
+
+    p {
+        font-size: 40px;
+        margin: 0;
+        color: black;
+    }
+    
+}

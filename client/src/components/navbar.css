@@ -1,0 +1,29 @@
+.color-nav {
+  background-color: #001f84;
+  padding: 0 !important;
+}
+
+.color-nav .container-fluid {
+  margin: 0;
+}
+
+.color-nav .container-fluid .logo1 {
+  width: 45%;
+}
+
+.color-nav .container-fluid Button {
+  padding: 10px 22px !important;
+  border-radius: 5px;
+}
+
+.color-nav .container-fluid .btn1 {
+  background-color: #62d3a4;
+  border: none;
+  color: #001f84;
+}
+
+.color-nav .container-fluid .btn2 {
+  background-color: transparent;
+  border: 1px solid #62d3a4;
+}
+/*# sourceMappingURL=navBar.css.map */

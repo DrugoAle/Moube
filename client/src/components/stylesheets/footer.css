@@ -1,0 +1,29 @@
+.contFooter {
+  background-color: #001f84;
+  color: white;
+  font-family: openSans-regular;
+}
+
+.contFooter .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  padding: 1%;
+}
+
+.contFooter .row .socialMedia {
+  text-align: end;
+}
+
+.contFooter .row a {
+  margin: 0;
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=footer.css.map */

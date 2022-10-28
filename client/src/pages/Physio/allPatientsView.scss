@@ -1,0 +1,135 @@
+//Claudia
+    
+.contAside {
+    position: sticky!important;
+    top: 0!important;
+    background-color:#001988;
+    height: 100vh!important;
+}
+@media screen and (max-width:991px) {
+    .contAside {
+        height: fit-content!important;
+    }
+    img {
+        width: 100%!important;
+    }
+}
+
+//fran
+
+.botones{
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    justify-content: center!important;
+    align-items: center;
+    
+
+.botonAlta{
+    
+    color: #001988;
+    background-color: white;
+    border-color: #001988;
+       display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35vh;
+     height: auto;
+    border-radius: 0;
+}
+
+
+
+
+.botonActivo{
+    color:white; 
+    background-color: #001988;
+    border-color: #001988;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+    width: 35vh;
+    height: auto;
+}
+
+.addPatient{
+    background-color: #00D4A3;
+    border: white 0px solid;
+    color: #001988;
+    border-radius: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.addPatient:hover{
+    color:white; 
+    background-color: #001988;
+    border-color: #001988;
+}
+.addPatient:focus{
+    color:white; 
+    background-color: #001988;
+    border-color: #001988;
+}
+.buscador{
+    border-radius: 25px;
+    width: 17vw;
+    padding: 0 4px 0 25px;
+}
+}
+
+@media all and (max-width: 767px) {
+
+    .botones{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 0;
+
+        .addPatient{
+            margin-right: 0;
+            margin-top: 2vh;
+            margin-bottom: 2vh;
+
+        }
+        .buscador{
+            width: 100%;
+        }
+        .addPatient{
+            width: 100%;
+            margin-left:0 ;
+        }
+    }
+
+
+
+}
+@media all and (max-width: 800px)and (min-width:768px) {
+
+    .botones{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin-right: 0;
+
+        .addPatient{
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 2vh;
+            margin-bottom: 2vh;
+
+        }
+        .buscador{
+            width: 60%;
+        }
+    }
+
+
+
+}

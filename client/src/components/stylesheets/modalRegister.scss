@@ -1,0 +1,129 @@
+.modalTitle{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.95%;
+}
+
+.modal-body {
+    padding-top: 0;
+
+}
+.regis2{
+    color: #001F84;
+    text-align: center;
+    padding-bottom: 3%;
+
+    .seLeEnviara{
+        color: rgb(41, 41, 41);
+        font-size: 14px;
+        text-align: start;
+        margin-left: 15%;
+        margin-bottom: 4%;
+
+    }
+
+   
+
+
+    
+    
+}
+
+
+
+    .inputRegister {
+        text-align: justify;
+        
+        background-color: #EEEEEE;
+        -moz-border-radius: 20px;
+        -webkit-border-radius:20px;
+        border-radius: 20px;
+        border: 1px solid #ffffff;
+        padding: 0 4px 0 40px;
+        height: 45px;
+        width: 88%;
+    }
+
+
+
+
+    .modalFooter{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    .buttonRegister{
+        text-align: center;
+        background-color: #001f84;
+        -moz-border-radius: 20px;
+        -webkit-border-radius:20px;
+        border-radius: 20px;
+        border: 1px solid #ffffff;
+        padding: 0 4px 0 0px;
+        height: 45px;
+        width: 75%;
+        margin-bottom: 2vh;
+    }
+}
+
+
+
+
+// @media (max-width:850px){
+   
+    
+   
+//     section{
+//         background-color: #ffffffd8;
+//     }
+    
+  
+//     .regis{
+//           background-color: #ffffffd8;
+//         display: flex;
+//         width: 100%;
+//         align-items: center;
+//         flex-direction: column;
+//         input {
+//             height: 50px;
+//             width:80vw;
+           
+//         }
+      
+        
+//         .topText{
+//                 margin-top: 4vh;
+//         }
+      
+       
+//         button{
+//             height: 45px; 
+//             margin-top: 3vh;
+//         }
+//     }
+// }
+// @media (max-height:666px){
+ 
+//     .regis{
+//           background-color: #ffffffd8;
+//         display: flex;
+//         align-items: center;
+//         flex-direction: column;
+        
+      
+//         input {
+//             height: 50px;
+//           width: 33vw;
+//         }
+//         button{
+//             width:33vw; 
+//             height: 50px;
+//         }
+//     }
+// }
+
+
+
+
+

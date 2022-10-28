@@ -1,0 +1,14 @@
+.contmake {
+margin: 3%!important;
+}
+@media all and (max-width: 850px) {
+.imagenScrollEjercicios{
+display: none !important;
+}
+.imagenScrollEjerciciosTabla{
+display: none !important;
+}
+.tablaOrdenable{
+    margin-left: -5vw;
+}
+}

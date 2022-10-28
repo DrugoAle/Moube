@@ -1,0 +1,27 @@
+.color-nav {
+    background-color: rgb(0,31,132);
+    .container-fluid {
+        margin: 0;
+
+        .logo1{
+            width: 45%;
+    
+        }
+        Button {
+            padding: 10px 22px !important;
+            border-radius: 5px;
+        }
+        .btn1 {
+            background-color: rgb(98,211,164);
+            border: none;
+
+            color: rgb(0,31,132);
+        }
+        .btn2 {
+            background-color: transparent;
+            border: 1px solid rgb(98,211,164);
+        }
+    }
+}
+
+

@@ -1,0 +1,111 @@
+.topTexto{
+    margin-top: 4vh;
+    margin-bottom: 1vh;
+    margin-left: 8vh;
+    color: #001988;
+    text-align: start;
+}
+.table-bordered>:not(caption)>*>*{
+    border-width: 0!important;
+}
+.bodyListaProgramas{
+    border-radius: 50%;
+
+}
+
+
+.headerListaProgramas{
+    border: 1px solid white;
+    border-bottom: none;
+}
+.backBarra{
+    background-color: #001988;
+}
+
+.miniaturaImagen{
+    height: 20vh;
+}
+
+.tablaCompletaProgramas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border: none;
+
+.programList{
+    width: 90%;
+    border: none;  
+    
+
+
+.tablaImagenMiniatura{
+    width: 40%;  
+    // border-top-right-radius: 30px;
+    // border-bottom-right-radius: 30px;
+    border: none;
+
+}
+
+.tablaName{
+    width: 60%;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    // border-top-left-radius: 30px;
+    // border-bottom-left-radius: 30px;
+    // border: none;
+    
+}
+}
+}
+.createProgramButton{
+    
+    margin-left: 8vh;
+    background-color: #00D4A3;
+    border: white 0px solid;
+    color: #001988;
+    border-radius: 25px;
+    margin-right: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+
+@media all and (max-width: 767px) {
+    .contPList {
+        display: flex;
+        flex-direction: column;
+        justify-content: center!important;
+        align-items: center!important;
+    }
+    .miniaturaTexto{
+        display: none;
+    }
+    .headerListaProgramas{
+        text-align: center;
+        font-weight: 800;
+        font-size: 20px;
+    }
+    .tablaName{
+        text-align: center;
+        height: 5vh;
+    }
+    .tablaImagenMiniatura{
+        display: none;
+    }
+    .topTexto{
+        text-align: center;
+        margin: 0;
+        margin-top: 3vh;
+    }
+    .createProgramButton{
+        margin: 2% 0;
+    }
+
+}

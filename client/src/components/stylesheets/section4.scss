@@ -1,0 +1,79 @@
+.contPart1 {
+    margin-top: 5%!important;
+    height: 100%;
+    .backimg {
+        background-image: url('../../../public/assets/background4.jpg');
+        background-size: cover;
+        background-position: left;
+    }
+    .colText {
+        background-color: rgb(0,31,132);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        .contPart1Text {
+            padding: 20%;
+        }
+
+        p {
+            font-family: openSans;
+        }
+        h2{
+            font-size: clamp(16px, 10vw, 25px)!important;
+        }
+    }
+}
+.contTrial {
+    text-align: center;
+    padding: 10% 30%!important;
+    height: 100%;
+    background-color: rgb(98,211,164);
+    color: rgb(0,31,132);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p {
+        font-family: openSans;
+    }
+    .btn-primary {
+        background-color: transparent!important;
+        border: 2px solid rgb(0,31,132) ;
+        color: rgb(0,31,132);
+        padding: 2% 3%;
+        margin: 2% 0;
+        border-radius: 10px;
+    }
+    .btn-primary:hover {
+        color: white!important;
+        background-color: rgb(0,31,132)!important;
+        border: 2px solid rgb(0,31,132);
+    }
+}
+
+.picCont {
+    height: 80vh;
+    background-image: url('../../../public/assets/login-pic.png');
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 991px) {
+    .colText {
+        text-align: center!important;
+        background-image: linear-gradient(to bottom, rgba(0, 31, 132, 0.9), rgba(0, 31, 132, 0.9)),  url('../../../public/assets/background4.jpg');
+        background-size: cover;
+        background-position: left;
+    }
+    .contTrial {
+        padding: 10%!important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .picCont {
+        height: 50vh;
+    }
+}

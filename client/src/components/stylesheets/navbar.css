@@ -1,0 +1,48 @@
+.color-nav {
+  background-color: #001f84;
+  height: 8vh;
+}
+
+.color-nav .navCont {
+  margin: 0 3% !important;
+  width: 100% !important;
+  padding: 0;
+}
+
+.color-nav .navCont .logo1 {
+  width: 45%;
+}
+
+.color-nav .navCont .collapse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end !important;
+      -ms-flex-pack: end !important;
+          justify-content: end !important;
+}
+
+.color-nav .navCont .me-auto {
+  margin: 0 !important;
+}
+
+.color-nav .navCont Button {
+  padding: 10px 22px !important;
+  border-radius: 5px;
+  border: 1px solid #62d3a4;
+}
+
+.color-nav .navCont .btn1 {
+  background-color: #62d3a4;
+  color: #001f84;
+}
+
+.color-nav .navCont .btn2 {
+  background-color: transparent;
+}
+
+.color-nav .navCont .btn2:hover {
+  background-color: #62d3a4;
+  color: #001f84;
+}
+/*# sourceMappingURL=navbar.css.map */

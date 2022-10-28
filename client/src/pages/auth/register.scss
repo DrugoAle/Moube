@@ -1,0 +1,173 @@
+.img{
+    width: 50%;
+    height: fit-content!important;
+    
+    
+    .imgLateral{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        image-orientation: inherit;
+
+    }
+   }
+.regis{
+    width: 50%;
+    height: 100vh;
+    color: #001F84;
+    text-align: center;
+    img{
+        margin-top: 1.1vw;
+        width: 240px;
+    }
+    h2{
+        font-size: 3.3vh;
+    }
+    .topText{
+        margin-left: 2vh;
+        margin-right: 2vh;
+    }
+    .fisioPregunta{
+        margin-top: 2vh;
+    }
+    .foot{
+        margin-top: 3vh;
+        font-size: 16px ;
+
+        .loginRedirect{
+            text-decoration: none;
+            color: #001F84;
+        }
+        .loginRedirect:hover{
+            color: #ffffff;
+            background-color: #001f848f;
+            font-weight: 900;
+            border-radius: 3px;
+        }
+       
+    }
+    
+}
+
+#pantalla-dividida{
+    display: flex;
+    height: fit-content!important;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.5vw;
+    margin-top: 1vw;
+
+    input {
+        text-align: justify;
+        
+        background-color: #EEEEEE;
+        -moz-border-radius: 20px;
+        -webkit-border-radius:20px;
+        border-radius: 20px;
+        border: 1px solid #ffffff;
+        padding: 0 4px 0 40px;
+        height: 50px;
+        width: 55%;
+
+     
+    }
+    button{
+        margin-top: 1vw;
+        -moz-border-radius: 20px;
+        -webkit-border-radius:20px;
+        border-radius: 20px;
+        border: 1px solid #ffffff;
+        padding: 0 4px 0 4px;
+        height: 50px;
+        width: 55%;
+
+    }
+}
+
+.img2{
+    width: 100%;
+    height: 100vh;
+    display: none;
+    
+    .imgLateral2{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        image-orientation: inherit;
+    }
+   }
+
+
+@media (max-width:850px){
+   
+    
+   
+    section{
+        background-color: #ffffffd8;
+    }
+    
+  
+    .regis{
+          background-color: #ffffffd8;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        // background-image: url('../../../public/images/user/register-img-provisional.webp') ;
+        // background-position: center;
+        // background-size: cover;
+        input {
+             // background-color: #fafafa;
+        //    border: black 0px solid;
+            height: 50px;
+            width:80vw;
+           
+        }
+        img{
+            margin-top: 2vh;
+        }
+        
+        .topText{
+                margin-top: 4vh;
+        }
+      
+       
+        button{
+            height: 45px; 
+            margin-top: 3vh;
+        }
+    }
+}
+@media (max-height:666px){
+  .img{
+        height: 100%;
+    }
+    .regis{
+          background-color: #ffffffd8;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        img{
+            margin-top: 2vh;
+        }
+      
+        input {
+            height: 50px;
+          width: 33vw;
+        }
+        button{
+            width:33vw; 
+            height: 50px;
+        }
+    }
+}
+
+
+
+
+

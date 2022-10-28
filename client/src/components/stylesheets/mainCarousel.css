@@ -1,0 +1,81 @@
+.carousel {
+  height: 92vh !important;
+  background-color: white;
+}
+
+.carousel img {
+  height: 92vh !important;
+}
+
+.carousel .carousel-control-prev-icon {
+  background-color: #001f84;
+  border-radius: 5px;
+  padding: 10%;
+  background-size: 60%;
+}
+
+.carousel .carousel-control-next-icon {
+  background-color: #001f84;
+  border-radius: 5px;
+  padding: 10%;
+  background-size: 60%;
+}
+
+.carousel .carousel-indicators button {
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  background-color: #001f84;
+  border: 2px solid white;
+  margin-bottom: 9%;
+}
+
+.carousel .h2cont {
+  color: white;
+  background-color: #001f84;
+  position: relative;
+  z-index: 100 !important;
+  margin-bottom: -100px;
+  width: 35%;
+  padding: 2%;
+  text-align: left;
+}
+
+.carousel .cover-text {
+  width: 100%;
+}
+
+.carousel .pcont {
+  color: #001f84;
+  padding: 2%;
+  padding-top: 8%;
+  width: 40%;
+  background-color: white;
+  position: relative;
+  z-index: 1 !important;
+  text-align: left;
+  margin-bottom: 20%;
+  margin-left: 2%;
+  font-size: 90%;
+}
+
+.carousel .pcont .responsiveHelper {
+  background-color: transparent;
+  height: 8% !important;
+  width: 100% !important;
+}
+
+.carousel .pcont .p1 {
+  margin-top: 2%;
+  font-family: openSans-regular;
+}
+
+.carousel .pcont .btn1 {
+  color: #001f84;
+  font-size: 90%;
+  padding: 10px;
+  background-color: #62d3a4;
+  border: 1px solid #62d3a4;
+  margin-left: 0 !important;
+}
+/*# sourceMappingURL=mainCarousel.css.map */

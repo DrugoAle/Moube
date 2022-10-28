@@ -1,0 +1,125 @@
+.contText {
+    text-align: center;
+    background-color: white;
+    color: rgb(0,31,132);
+    padding: 5% 20%!important;
+    h2 {
+        font-weight: 800;
+    }
+
+    p {
+        font-family: openSans;
+        padding: 0 20%;
+    }
+    b {
+        font-family: openSans-bold;
+    }
+}
+
+.contLink {
+    height: 75vh;
+    background-size: cover!important;
+    background-position: center!important;
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 9%!important;
+    p {
+        font-family: openSans!important;
+        font-weight: 300!important;
+
+    }
+    .btn-primary {
+        background-color: transparent!important;
+        border: 1px solid white!important;
+        border-radius: 6px!important;
+        padding: 2%!important;
+        margin-top: 3%;
+    }
+}
+.contLink:hover {
+    .btn-primary {
+        color:rgb(0,31,132);
+        background-color: rgb(98,211,164)!important;
+        border: 1px solid rgb(98,211,164)!important;
+    }
+
+}
+#link1 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/images/user/register-img-provisional.webp')!important;
+}
+#link1:hover {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../../public/images/user/register-img-provisional.webp')!important;
+}
+#link2 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/assets/pacient-img.jpg')!important;
+}
+#link2:hover {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../../public/assets/pacient-img.jpg')!important;
+}
+
+.contServices {
+    padding: 0 3%;
+    .services {
+        border-radius: 10px;
+        padding: 2% 6%;
+        color:rgb(0,31,132);
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        // justify-content: center;
+        align-items: center;
+        p {
+            font-family: openSans;
+        }
+        .iconMb {
+            width: 20%;
+        }
+        h5 {
+            margin: 5% 0;
+        }
+    }
+}
+
+
+.services:hover {
+    background-color: rgb(98,211,164);
+}
+
+@media screen and (max-width: 991px){
+    .contText {
+        padding: 5%!important;    
+        p {
+            font-family: openSans;
+            font-size: 15px;
+            padding: 0 10%;
+        }
+    }
+    .contLink {
+        padding: 0 5%!important;
+    }
+    .contServices{
+        display: flex;
+        justify-content: center;
+        .services {
+            width: 70%!important;
+        }
+
+    }
+    .iconMb {
+        width: 30%!important;
+    }
+}
+@media screen and (max-width: 768px){
+    .contLink {
+        padding: 0% 10%!important;
+    }
+    .iconMb{
+        width: 50%!important;
+    }
+}
+
+

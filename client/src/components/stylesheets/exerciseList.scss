@@ -1,0 +1,19 @@
+.exerciseCont{
+
+    background-color: #7fffd4;
+}
+
+.bodyEx {
+    border-radius: 10px!important;
+}
+
+.hidden{
+
+    background-color: rgb(0,31,132)!important;
+    color: white!important;
+}
+@media all and (max-width: 850px) {
+    .imagenListaEjcsc{
+        display: none;
+    }
+}

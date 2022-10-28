@@ -1,0 +1,39 @@
+
+.contshowmore{
+    background-color: rgba(98, 211, 164, 0.651);
+    border-radius: 10px;
+    margin: 2%!important;
+}
+.seeMore {
+    height: 5%;
+    background-color: rgb(0,31,132)!important;
+    border: 1px solid rgb(0,31,132)!important;
+    margin: 3%;
+    padding: 2% 7%!important;
+
+}
+.startEx {
+    width: 30%!important;
+    margin: 2%!important;
+}
+
+@media all and (max-width: 912px) {
+    .responsiveListaRepes {
+                    th{
+                        width: 10vw!important;
+                    }
+                }
+    .eliminableResponsive{
+        display: none;
+    }
+}
+
+// table {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: flex-start;
+// }
+
+// .table-bordered>:not(caption)>* {
+//     border-width: 0!important;
+// }

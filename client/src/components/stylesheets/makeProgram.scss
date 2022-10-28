@@ -1,0 +1,161 @@
+.tablaRepes1{
+   
+    border-collapse: collapse;
+}
+
+body {
+    font-family: 'lato', sans-serif;
+  }
+  
+  .botonMakeProgram{
+      
+    margin-left: 8vh !important;
+    background-color: #00D4A3 !important;
+    border: white 0px solid !important;
+    color: #001988 !important;
+    border-radius: 25px !important;
+    margin-right: 100px !important;
+    height: 40px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 190px !important;
+    
+    margin-top: 1% !important;
+    margin-bottom: 5% !important;
+  }
+  .container2 {
+    max-width: 50vw;
+    margin-right: auto;
+    border-collapse: collapse;
+    
+  }
+  
+  h2 {
+    font-size: 26px;
+    margin: 20px 0;
+    text-align: center;
+    small {
+      font-size: 0.5em;
+    }
+  }
+  
+  .responsive-table2 {
+  
+    li {
+      border-radius: 3px;
+      padding: 25px 30px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 25px;
+    }
+    .table-header {
+      background-color: #95a5a600;
+      font-size: 1.5vh;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      margin-bottom: -2%;
+      
+      width: 100%;
+    }
+    .col{
+      width: 25%;
+    }
+    input{
+      width: 25vh;
+    }
+    .table-row {
+      background-color: #F6F6F6;
+     
+    border-collapse: collapse;
+      height: 8vw;
+      width: 70vw;
+    }
+    .container2{
+        margin-left: 1vh;
+    }
+    .col-5 {
+      flex-basis: 25vh;
+      
+    }
+    .col-6 {
+      flex-basis: 10vw;
+    }
+    .col-7 {
+      flex-basis: 10%;
+    }
+    .col-8 {
+      flex-basis: 20%;
+    }
+    .col-9 {
+      flex-basis: 20%;
+    }
+    
+    @media all and (max-width: 850px) {
+  .responsive-table2{
+    margin: 0 !important;
+  }
+
+      .miniatura{
+        display: none !important;
+    }
+      .container2{
+          margin-left: auto;
+      }
+      .col-5{
+        flex-basis: 22%;
+      }
+      .col-6 {
+        flex-basis: 15%;
+      }
+      .col-7 {
+        flex-basis: 35%;
+        height: 9vh;
+        width: 50%;
+      }
+      .col-8 {
+        flex-basis: 20%;
+      }
+  
+      .table-header {
+        display: none;
+        width: auto;
+      }
+      .table-row{
+        margin-left: 0;
+        height: auto;
+        margin-left: 0;
+        width: auto;
+        height: auto;
+        
+      }
+      li {
+        display: block;
+      }
+      .col {
+        
+        flex-basis: 100%;
+        
+      }
+      .col {
+        display: flex;
+        padding: 10px 0;
+        &:before {
+          color: #6C7A89;
+          padding-right: 10px;
+          content: attr(data-label);
+          flex-basis: 50%;
+          text-align: right;
+        }
+      }
+    }
+    
+  }
+
+@media (max-width:900px){
+    .cabeceraRepes{
+        display: none;
+    }
+   
+    
+}
